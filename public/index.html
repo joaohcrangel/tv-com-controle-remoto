@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>TV Controle</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+</head>
+<body>
+    <div class="container text-center">
+        <div class="alert alert-warning" role="alert">
+            Clique na TV assim que carregar a página para que o autoplay funcione a primeira vez.
+        </div>
+        <div id="wrap">
+            <img src="assets/images/tv.jpg" id="tv">
+            <video id="video" loop></video>
+            <div id="canal-number"></div>
+            <div id="volume">
+                <div class="bar"></div>
+            </div>
+        </div>
+    </div>
+    <script src="https://www.gstatic.com/firebasejs/5.7.0/firebase.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>

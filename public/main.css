@@ -1,0 +1,92 @@
+#tv, #controle {
+    width: 100%;
+}
+#wrap-control {
+    position: relative;
+    width: 500px;
+    margin: 0 auto;
+}
+#wrap {
+    position: relative;
+    width: 720px;
+    margin: 0 auto;
+}
+video {
+    position: absolute;
+    width: 692px;
+    left: 13px;
+    top: 18px;
+}
+.btn-control {
+    position: absolute;
+    width: 54px;
+    height: 54px;
+    border-radius: 27px;
+    background: transparent;
+    border: none;
+    outline: none;
+}
+#btn-1 {
+    top: 213px;
+    left: 159px;
+}
+#btn-2 {
+    top: 213px;
+    left: 223px;
+}
+#btn-3 {
+    top: 213px;
+    left: 287px;
+}
+#btn-4 {
+    top: 269px;
+    left: 159px;
+}
+#btn-5 {
+    top: 269px;
+    left: 223px;
+}
+#btn-6 {
+    top: 269px;
+    left: 287px;
+}
+#btn-on {
+    top: 98px;
+    left: 223px;
+}
+#btn-volume-up {
+    top: 41px;
+    left: 223px;
+}
+#btn-volume-down {
+    top: 155px;
+    left: 223px;
+}
+#canal-number {
+    position: absolute;
+    top: 35px;
+    right: 40px;
+    color: lime;
+    font-size: 22px;
+    background-color: rgba(0,0,0,.7);
+    padding: 4px 14px;
+    font-weight: bold;
+    font-family: monospace;
+    display: none;
+}
+#volume {
+    position: absolute;
+    width: 200px;
+    margin: 0 auto;
+    height: 30px;
+    background-color: rgba(0,0,0,.7);
+    top: 30px;
+    left: 270px;
+    padding: 8px;
+    display: none;
+}
+#volume .bar {
+    height: 15px;
+    width: 100%;
+    background-color: lime;
+}
